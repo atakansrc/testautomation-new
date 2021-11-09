@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33483" started-at="2021-11-09T12:39:14Z" finished-at="2021-11-09T12:39:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33483" started-at="2021-11-09T12:39:14Z" finished-at="2021-11-09T12:39:48Z">
+      <class name="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="initializeTest" is-config="true" duration-ms="3329" started-at="2021-11-09T12:39:14Z" finished-at="2021-11-09T12:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="openBrowser" duration-ms="1210" started-at="2021-11-09T12:39:17Z" finished-at="2021-11-09T12:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createOwner()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="createOwner" duration-ms="3174" started-at="2021-11-09T12:39:19Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.openBrowser" finished-at="2021-11-09T12:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOwner -->
+        <test-method status="PASS" signature="findOwner()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="findOwner" duration-ms="5557" started-at="2021-11-09T12:39:22Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.createOwner" finished-at="2021-11-09T12:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findOwner -->
+        <test-method status="PASS" signature="updateOwner()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="updateOwner" duration-ms="2489" started-at="2021-11-09T12:39:27Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.findOwner" finished-at="2021-11-09T12:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateOwner -->
+        <test-method status="PASS" signature="addPet()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="addPet" duration-ms="4716" started-at="2021-11-09T12:39:30Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.updateOwner" finished-at="2021-11-09T12:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPet -->
+        <test-method status="PASS" signature="addVisit()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="addVisit" duration-ms="12960" started-at="2021-11-09T12:39:35Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.addPet" finished-at="2021-11-09T12:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVisit -->
+      </class> <!-- org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
