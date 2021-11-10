@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest">
+      <class name="org.springframework.samples.petclinic.cucumber.TestRun">
         <methods>
-          <include name="createOwner"/>
-          <include name="initializeTest"/>
-          <include name="findOwner"/>
-          <include name="addVisit"/>
-          <include name="updateOwner"/>
-          <include name="addPet"/>
-          <include name="openBrowser"/>
+          <include name="runScenario" invocation-numbers="3 4"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest -->
+      </class> <!-- org.springframework.samples.petclinic.cucumber.TestRun -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

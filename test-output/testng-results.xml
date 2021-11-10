@@ -1,41 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33483" started-at="2021-11-09T12:39:14Z" finished-at="2021-11-09T12:39:48Z">
+  <suite name="Default suite" duration-ms="55862" started-at="2021-11-10T10:58:18Z" finished-at="2021-11-10T10:59:14Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="33483" started-at="2021-11-09T12:39:14Z" finished-at="2021-11-09T12:39:48Z">
-      <class name="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest">
-        <test-method status="PASS" signature="initializeTest()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="initializeTest" is-config="true" duration-ms="3329" started-at="2021-11-09T12:39:14Z" finished-at="2021-11-09T12:39:17Z">
+    <test name="Default test" duration-ms="55862" started-at="2021-11-10T10:58:18Z" finished-at="2021-11-10T10:59:14Z">
+      <class name="org.springframework.samples.petclinic.cucumber.TestRun">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="setUpClass" is-config="true" duration-ms="418" started-at="2021-11-10T10:58:19Z" finished-at="2021-11-10T10:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e15bb06]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="openBrowser" duration-ms="1210" started-at="2021-11-09T12:39:17Z" finished-at="2021-11-09T12:39:19Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="runScenario" duration-ms="3920" started-at="2021-11-10T10:58:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-10T10:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Go to LocalHost and AddOwner"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Spring PetClinic Test]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="createOwner()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="createOwner" duration-ms="3174" started-at="2021-11-09T12:39:19Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.openBrowser" finished-at="2021-11-09T12:39:22Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="runScenario" duration-ms="7358" started-at="2021-11-10T10:58:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-10T10:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Find User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Spring PetClinic Test]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOwner -->
-        <test-method status="PASS" signature="findOwner()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="findOwner" duration-ms="5557" started-at="2021-11-09T12:39:22Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.createOwner" finished-at="2021-11-09T12:39:27Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="runScenario" duration-ms="8613" started-at="2021-11-10T10:58:30Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-10T10:58:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Spring PetClinic Test]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findOwner -->
-        <test-method status="PASS" signature="updateOwner()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="updateOwner" duration-ms="2489" started-at="2021-11-09T12:39:27Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.findOwner" finished-at="2021-11-09T12:39:30Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="runScenario" duration-ms="15298" started-at="2021-11-10T10:58:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-10T10:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Pet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Spring PetClinic Test]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateOwner -->
-        <test-method status="PASS" signature="addPet()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="addPet" duration-ms="4716" started-at="2021-11-09T12:39:30Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.updateOwner" finished-at="2021-11-09T12:39:35Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="runScenario" duration-ms="20191" started-at="2021-11-10T10:58:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-10T10:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Pet Visit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Spring PetClinic Test]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addPet -->
-        <test-method status="PASS" signature="addVisit()[pri:0, instance:org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest@75c072cb]" name="addVisit" duration-ms="12960" started-at="2021-11-09T12:39:35Z" depends-on-methods="org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest.addPet" finished-at="2021-11-09T12:39:48Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.springframework.samples.petclinic.cucumber.TestRun@475e586c]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2021-11-10T10:59:14Z" finished-at="2021-11-10T10:59:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addVisit -->
-      </class> <!-- org.springframework.samples.petclinic.selenium.PetClinicSeleniumTest -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.springframework.samples.petclinic.cucumber.TestRun -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
