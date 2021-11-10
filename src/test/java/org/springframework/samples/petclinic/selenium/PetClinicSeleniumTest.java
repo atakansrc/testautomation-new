@@ -39,7 +39,6 @@ public class PetClinicSeleniumTest {
 		opt.addArguments("--disable-notifications");
 		opt.addArguments("disable-infobars");
 		drv = new ChromeDriver();
-
 	}
 
 	@AfterClass
